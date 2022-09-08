@@ -1,5 +1,7 @@
 package com.semih.librarymanagementsystem.repository.entity;
 
-public enum UserType {
-    ADMIN, STUDENT
+public enum State {
+    ACTIVE,
+    PASSIVE,
+
 }

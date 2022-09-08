@@ -1,0 +1,16 @@
+server:
+  port: 7070
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/libraryMSdb
+    username: postgres
+    password: asdsaddas
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
